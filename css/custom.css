@@ -1,0 +1,23 @@
+.gradient-custom {
+	/* fallback for old browsers */
+	background: rgb(224, 217, 233);
+
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(
+		to right,
+		rgba(224, 217, 233),
+		rgb(181, 171, 195)
+	);
+
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, rgba(224, 217, 233), rgb(181, 171, 195));
+}
+
+#loggedInUserName,
+#loyaltyTier {
+	text-transform: uppercase;
+}
+
+#loggedInUser {
+	color: red;
+}
